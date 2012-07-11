@@ -1,0 +1,314 @@
+body {
+  font-family:
+    "Century Gothic",    /* Windows (HP printer) */
+    "Avant Garde Gothic",/* HP font name */
+    "Avant Garde",       /* MacOS */
+    "URW Gothic L",      /* Unix+X+FontConfig */
+    /* Fallback options */
+    helvetica,           /* Unix+X, MacOS */
+    sans-serif;
+  font-size:14pt;
+}
+img {
+	border:0px;
+}
+p {
+  margin:0;
+  border:0;
+  padding:0;
+}
+ul {
+  margin-top:0;
+  margin-bottom:1em;
+  margin-left:0;
+  border:none;
+  padding:0 0 0 0;
+}
+li {
+  margin-top:7px;
+  margin-left:13px;
+  margin-bottom:3px;
+  border:none;
+  padding:0 0 0 0;
+  font-size:10pt;
+  line-height:10pt;
+}
+h1 {
+  margin:0;
+  padding-top:7px;
+  font-size:15pt;
+}
+h2 {
+  margin-top:.5em;
+  margin-bottom:0;
+  border:0;
+  padding:0;
+  font-size:10pt;
+  font-weight:normal;
+}
+div.page {
+  width:1000px;
+  height:560px;
+}
+div.bar {
+  background-color:#EDF3F5;
+  color:#343434; 
+}
+*:link {
+  text-decoration:none;
+  border:0;
+  outline:none;
+}
+*:visited {
+  text-decoration:none;
+  border:0;
+  outline:none;
+}
+div.top a:link {
+  color:dimgray;
+  text-decoration:none
+}
+div.top a:visited {
+  color:dimgray;
+  text-decoration:none
+}
+div.bottom a:link {
+  color:#343434
+}
+div.bottom a:visited {
+  color:#343434
+}
+div.text {
+}
+div.top {
+  height:72px;
+  text-align:right;
+  color:dimgray;
+  font-size: 12pt;
+}
+div.top div.text {
+  padding-top:25px;
+  padding-right:30px;
+}
+div.bottom {
+  height:45px;
+  font-size: 12pt;
+}
+div.bottom div.left {
+  position:absolute;
+  padding-top:8px;
+  padding-left:60px;
+}
+div.bottom div.center {
+  padding-top:8px;
+  text-align:center;
+}
+div.bottom div.right {
+  position:absolute;
+  right:0;
+  padding-top:8px;
+  padding-right:60px;
+}
+.content {
+  position:relative;
+  height:445px;
+  width:1000px;
+  background-color:#D8E1E4;
+  margin:0;
+  border:0;
+  padding:0;
+  font-size:13pt;
+  overflow:auto
+}
+.content b {
+  font-size:14pt;
+}
+textarea.content {
+  height:493px; /* larger than .content, for the editor control bar. */
+  width:1002px; /* I'm not sure where the two extra pixels are getting used. */
+  border:0px;
+  padding:0px;
+  margin:0px;
+}
+.content a:link {
+  color:black;
+  text-decoration:none;
+}
+.content a:visited {
+  color:black;
+  text-decoration:none;
+}
+.font8pt { font-size: 8pt; }
+.font9pt { font-size: 9pt; }
+.font10pt { font-size: 10pt; }
+.font11pt { font-size: 11pt; }
+.font12pt { font-size: 12pt; }
+.font13pt { font-size: 13pt; }
+.font14pt { font-size: 14pt; }
+.font15pt { font-size: 15pt; }
+img:link {
+  border:0
+}
+img:visited {
+  border:0
+}
+.absolute {
+  position:absolute;
+}
+#outerImageContainer{
+  background-color:#D8E1E4;
+}
+#imageDataContainer{
+  background-color:#D8E1E4;
+  overflow: hidden;
+}
+#imageDataContainer{
+  font-family:
+    "Century Gothic",    /* Windows (HP printer) */
+    "Avant Garde Gothic",/* HP font name */
+    "Avant Garde",       /* MacOS */
+    "URW Gothic L",      /* Unix+X+FontConfig */
+    /* Fallback options */
+    helvetica,           /* Unix+X, MacOS */
+    sans-serif;
+  font-size: 8pt;
+}
+#imageData #caption{ 
+  font-weight: normal;
+}
+#numberDisplay {
+  font-size: 8pt;
+}
+#numberDisplay:before {
+  content: "("
+}
+#numberDisplay:after {
+  content: ")"
+}
+#prevLink:hover, #prevLink:visited:hover 
+{ 
+  background: url(prev.png) left 15% no-repeat; 
+}
+#nextLink:hover, #nextLink:visited:hover 
+{ 
+  background: url(next.png) right 15% no-repeat; 
+}
+#imageData #bottomNavClose{ padding-bottom: 0em;	}
+#bottomNav {
+  float: right
+}
+#bottomNav img {
+  float: right
+}
+#bottomNavClose {
+  float: right
+}
+input {
+  border-style:none;
+}
+textarea {
+  border-style:solid;
+  border:0;
+}
+div.contact form {
+  margin-top:50px;
+  margin-bottom:50px;
+  margin-left:100px;
+  margin-right:100px;
+  font-size:small;
+  text-align:justify;
+}
+div.contact input {
+  position:absolute;
+  right:100px;
+  border:2px solid #EDF3F5;
+  background-color:#EDF3F5;
+}
+div.contact textarea {
+  width:250px;
+  height:125px;
+  background-color:#EDF3F5;
+}
+div.contact button {
+  margin-left:75px;
+  margin-top:10px;
+  width:100px;
+  vertical-align:top;
+  border:1px dotted gray;
+  background-color:#EDF3F5;
+}
+div.contact form div {
+  margin:0;
+  margin-bottom:10px;
+}
+div.contact h1 {
+  font-size:xx-large;
+  margin-bottom:20px;
+}
+div.contact p {
+  font-size:small;
+  color:#808080;
+  margin-left:25px;
+}
+div#contactleft {
+  position:absolute;
+  background-color:#b6c5c1;
+  width:450px;
+  top:50px;
+  bottom:50px;
+  left:50px;
+}
+div#contactright {
+  position:absolute;
+  width:450px;
+  right:0;
+  top:0;
+  bottom:0;
+  margin:50px;
+  background-color:#EDF3F5;
+}
+div.contact div.quotebox {
+  margin-top:10px;
+  margin-left:50px;
+  font-size:small;
+}
+div.copyright {
+  font-size:xx-small
+}
+.logo {
+  position:absolute;
+  top:0;
+  left:15px;
+}
+img.logo2 {
+  position:absolute;
+  top:0;
+  left:115px;
+}
+img.signature {
+  position:absolute;
+  top:0;
+  right:15px;
+}
+.title {
+  position:absolute;
+  top:20px;
+  left:100px;
+  color:black;
+  font-size:x-large;
+  text-align:left;
+}
+.entry {
+  width:700px;
+}
+.statement {
+  position: absolute;
+  overflow: auto;
+  font-size:small;
+}
+.statement p {
+  padding-bottom:5px;
+}
+.hang {
+  text-indent: -3em; margin-left: 3em;
+}

@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<p><img src="{{ STATIC_URL }}atthesea400.jpg" alt="At the Sea" style="margin: 20px 85px;"></img></p>
+<div style="position: absolute; left: 481px; top: 21px; width: 500px;">
+  <ul>
+    {% for season in season_list %}
+    <li><strong>Upcoming Shows / </strong><em>Fall 2008</em><ul>
+    {% for festival in season.festivals %}
+    <li>November 22nd &ndash; 23 DeLand Fall Arts Festival, DeLand, FL</li>
+    {% endfor %}
+    </ul></li>
+    {% endfor %}
+  </ul>
+</div>
+{% endblock %}
